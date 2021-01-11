@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Wonder Woman",
+    "genere": "comedy",
+    "imagePath": "images/1.jpg",
+    "releaseYear": 2018,
+    "releaseDate": "01/05/2021",
+    "rating": 2.5,
+    "status": "released"
+  },
+  {
+    "name": "Joker",
+    "genere": "comedy",
+    "imagePath": "images/2.jpg",
+    "releaseYear": 2018,
+    "releaseDate": "01/05/2021",
+    "rating": 2.5,
+    "status": "released"
+  },
+  {
+    "name": "The Kings Speech",
+    "genere": "comedy",
+    "imagePath": "images/3.jpg",
+    "releaseYear": 2018,
+    "releaseDate": "01/05/2021",
+    "rating": 2.5,
+    "status": "released"
+  },
+  {
+    "name": "Avengers",
+    "genere": "comedy",
+    "imagePath": "images/4.jpg",
+    "releaseYear": 2018,
+    "releaseDate": "01/05/2021",
+    "rating": 2.5,
+    "status": "coming soon"
+  }
+]
