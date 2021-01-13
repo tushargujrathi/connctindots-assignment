@@ -16,7 +16,10 @@ router.get('/trendingList', (req, res) => {
       fs.readFileSync(path.join(__dirname, '../data/data.json')),
     );
     const list = data.filter((ele) => ele.status !== 'coming soon');
-    response.data = list;
+    const topValues = list
+      .sort((a, b) => b.todayWatchCount - a.todayWatchCount)
+      .slice(0, 3);
+    response.data = topValues;
     response.status = 0;
     return res.json(response);
   } catch (error) {

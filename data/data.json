@@ -6,7 +6,8 @@
     "releaseYear": 2018,
     "releaseDate": "01/05/2021",
     "rating": 2.5,
-    "status": "released"
+    "status": "released",
+    "todayWatchCount": 5
   },
   {
     "name": "Joker",
@@ -15,7 +16,8 @@
     "releaseYear": 2018,
     "releaseDate": "01/05/2021",
     "rating": 2.5,
-    "status": "released"
+    "status": "released",
+    "todayWatchCount": 30
   },
   {
     "name": "The Kings Speech",
@@ -24,7 +26,8 @@
     "releaseYear": 2018,
     "releaseDate": "01/05/2021",
     "rating": 2.5,
-    "status": "released"
+    "status": "released",
+    "todayWatchCount": 50
   },
   {
     "name": "Avengers",

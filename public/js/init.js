@@ -22,7 +22,10 @@ function getTrendingShows() {
                     <div class="col s12 m4">
                       <div class="card">
                         <div class="card-image">
-                          <img src="${element.imagePath}">
+                          <div class="itemsContainer">
+                            <div class="image"><a href="#!"><img src="${element.imagePath}"> </a></div>
+                            <div class="play"><img src="/images/play-button.png" /> </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -50,14 +53,15 @@ function getComingSoonShows() {
         response.data.forEach((element) => {
           html += `
           <div class="col s12 m12">
-          <div class="card horizontal">
+          <div class="card horizontal z-depth-3">
             <div class="card-image">
               <img src="${element.imagePath}">
             </div>
             <div class="card-stacked">
-              <div class="card-content">
-                <p>${element.name}</p>
-                <p>${element.releaseDate}</p>
+              <div class="card-content" style="padding: 8px;">
+                <div style="font-size:16px;color:grey;">${element.name}</div>
+                <div style="font-size:10px">Releasing on</div>
+                <div style="font-size:12px">${element.releaseDate}</div>
               </div>
             </div>
           </div>
