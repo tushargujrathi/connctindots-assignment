@@ -1,51 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Parallax Template - Materialize</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Parallax Template - Materialize</title>
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
-<body>
-  <div class="carousel carousel-slider">
-    <a class="carousel-item" href="#one!"><img src="/images/1.jpg"></a>
-    {{!-- <a class="carousel-item" href="#two!"><img src="/images/2.jpg"></a> --}}
-    {{!-- <a class="carousel-item" href="#three!"><img src="/images/3.jpg"></a> --}}
-  </div>
-<div class="container">
-  <div class="row">
-    <div class="col s12 m8">
-      <div class="row">
-        <div class="col s8">
-          <h6>Trending</h6>
-        </div>
-        <div class="col s4">
-          <h6><a href="#" class="right">View All</a></h6>
-        </div>
-      </div>
-      <div id="trending" style=""></div>
-    </div>
-    <div class="col s12 m4">
-      <div class="row">
-        <div class="col s8">
-          <h6>Coming Soon</h6>
-        </div>
-        <div class="col s4">
-          <h6><a href="#" class="right">View All</a></h6>
-        </div>
-      </div>
-      <div id="comingSoon" style=""></div>
-    </div>
-  </div>
-  </div>
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
 
-  </body>
+<body>
+    <nav class="n bi fj">
+        <div class="nav-wrapper">
+            <a href="startup-horizontal-half.html" class="brand-logo">iVISiON</a>
+            <ul id="nav-mobile" class="ag hide-on-med-and-down">
+
+                <li><a href="#">Shows</a></li>
+                <li><a href="#">Movies </a></li>
+                <li><a href="#">Live TV </a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="pages" data-constrainwidth="false"
+                        data-beloworigin="true">Events<i class="material-icons"
+                            style="float: right;">arrow_drop_down</i></a>
+                    <ul id="pages" class="dropdown-content">
+                        <li><a class="g" href="startup-horizontal-half.html">Horizontal Halves</a></li>
+                        <li><a href="startup-basic-elements.html">Basic Elements</a></li>
+                        <li><a href="startup-shuffle.html">Shuffle</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Songs</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="carousel carousel-slider">
+        <div class="row">
+            <div class="col s12 m8">
+                <div class="carousel-fixed-item left" style="padding: 0px 100px;">
+                    <div class="row">
+                        <div class="col s12 m6">
+                            <p class="white-text" style="margin: 0px;">Premiere Now</p>
+                            <h2 class="white-text" style="margin: 0px;font-size:24px">Wonder Woman 1984</h2>
+                            <p class="white-text" style="margin: 0px;">Action</p>
+                            <a class="btn-rounded waves-effect" style="margin: 10px 0px;">WATCH NOW</a>
+                        </div>
+                        <div class="col m6  hide-on-small-only">
+                            <div class="row">
+                                <div class="col m4">
+                                    <div class="card">
+                                        <div class="card-image">
+                                            <div class="itemsContainer">
+                                                <div class="image"><a href="#!"><img src="/images/2.jpg"> </a></div>
+                                                <div class="play"><img src="/images/play-button.png" /> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col m4">
+                                    <div class="card">
+                                        <div class="card-image">
+                                            <div class="itemsContainer">
+                                                <div class="image"><a href="#!"><img src="/images/3.jpg"> </a></div>
+                                                <div class="play"><img src="/images/play-button.png" /> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col m4">
+                                    <div class="card">
+                                        <div class="card-image">
+                                            <div class="itemsContainer">
+                                                <div class="image"><a href="#!"><img src="/images/4.jpg"> </a></div>
+                                                <div class="play"><img src="/images/play-button.png" /> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a class="carousel-item" href="#two!"><img src="/images/1.jpg"></a>
+        {{!-- <a class="carousel-item" href="#three!"><img src="/images/3.jpg"></a> --}}
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m8">
+                <div class="row">
+                    <div class="col s8">
+                        <h6>Trending</h6>
+                    </div>
+                    <div class="col s4">
+                        <h6><a href="#" class="right">View All</a></h6>
+                    </div>
+                </div>
+                <div id="trending" style=""></div>
+            </div>
+            <div class="col s12 m4">
+                <div class="row">
+                    <div class="col s8">
+                        <h6>Coming Soon</h6>
+                    </div>
+                    <div class="col s4">
+                        <h6><a href="#" class="right">View All</a></h6>
+                    </div>
+                </div>
+                <div id="comingSoon" style=""></div>
+            </div>
+        </div>
+    </div>
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+
+</body>
+
 </html>
